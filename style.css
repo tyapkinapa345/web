@@ -1,0 +1,28 @@
+body {
+  width: 550px;
+  margin: 0;
+  padding: 0;
+}
+
+.container img {
+  margin: 20px;
+  border-radius: 50%; 
+  position: relative; /* Добавлено для правильного позиционирования тени */
+}
+
+/* Оконтовка с эффектом рассеивания */
+.petuh {
+  box-shadow: 0 0 50px rgba(238, 0, 0, 0.99); /* Красная тень */
+}
+
+.popugai {
+  box-shadow: 0 0 50px rgba(0, 140, 255, 0.99); /* Синяя тень */
+}
+
+.orel {
+  box-shadow: 0 0 50px rgba(255, 217, 0, 0.99); /* Желтая тень */
+}
+
+.zyablik {
+  box-shadow: 0 0 50px rgba(73, 73, 73, 0.99); /* Серебряная тень */
+}
